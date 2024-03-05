@@ -1,0 +1,41 @@
+Setting Up and Using Git leaks for GitHub Repository Scanning 
+
+--------------------------------------------------------------------------------------------- 
+
+Git leaks is an open-source tool designed to scan repositories in GitHub, GitLab, and Bitbucket for secrets and sensitive information leaked in the source code. These secrets might include API keys, passwords, tokens, or other confidential data that should not be exposed publicly. 
+ 
+Gitleaks Installation Guide: 
+
+----------------------------------------- 
+ 
+Step 1: Download Git leaks: 
+---------------------------
+
+ 
+ Run the following command to download the Git leaks binary: 
+
+---> weget https://github.com/gitleaks/gitleaks/releases/download/v8.18.2/gitleaks_ 8.18.2_linux_x32.tar.gz 
+
+ 
+Step 2: Extract the Git leaks Binary:
+-------------------------------------
+ Use the following command to extract the downloaded tar ball: 
+
+---> tar -xzvf gitleaks_8.18.2_linux_x32.tar.gz 
+
+ 
+Step 3: Move Git leaks Binary to System Bin Directory:
+--------------------------------------------------------
+
+Move the extracted Git leaks binary to the /usr/bin directory:  
+
+---> sudo mv gitleaks /usr/bin 
+ 
+Step 4:Verification 
+---------------------
+To verify that Git leaks is installed correctly, run the following command to check the version: 
+
+---> Gitleaks version 
+ 
+This command should display the installed version of Gitleaks.  
+  
