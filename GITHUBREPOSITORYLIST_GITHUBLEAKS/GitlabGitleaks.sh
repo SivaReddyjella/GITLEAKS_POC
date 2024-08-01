@@ -1,4 +1,4 @@
-[Thursday 16:56] Gangula Prathap Reddy CHALAMAKUNTA
+
 #!/bin/bash
  
 # URL-encoded GitLab username and personal access token
